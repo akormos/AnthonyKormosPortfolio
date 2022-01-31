@@ -24,13 +24,13 @@
     <!--End Javascript scrolling stuff-->
     <title>Anthony Kormos UX Portfolio</title>
   </head>
-  <body id = "body" 
+  <body id = "body">
   
     <!-- Paste Navigation Code Below -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src = "images/akMug1.png" style = "max-height: 40px;">
+          <img src = "images/akMug1.png" href =  "home.html"style = "max-height: 40px;">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -38,22 +38,21 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="home.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Resume</a>
+              <a class="nav-link" href="aboutMe.html">About Me</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-               Work
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Work
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Eat Me</a>
+                <a class="dropdown-item" href="#">Studio Theatre</a>
+              </div>
             </li>
+            <li class="nav-item">
             <li class="nav-item">
              <!-- <a class="nav-link disabled">Disabled</a>-->
             </li>
@@ -78,19 +77,26 @@
           <h1 class="display-1">Anthony Kormos</h1>
           <p class="lead">UX Researcher and Professional Interviewer</p>
         </container>
-        <div class= "jumboMugs" >
-        <img src= "images/mug5.png" style=></img>
-
-        <!-- HERE IDIOT! -->
-          <container class = "pour" id = pour>
-            <container class = "wrapper">
-              
-              <img src="images/sixDot.png" id= spillDot><img> 
-              
-            </container>
-            <img src= "images/mug4.png" id = spillMug></img>
+      <div class = "row">
+        <div class = "col-lg-6">
+          <div class = "col-sm-12" style = " padding-bottom: px;">
+        
+        <div class = quicklinks>
+          <a class="btn btn-primary btn-2g" href="#" role="button" data-toggle="modal" data-target="#exampleModal">Past Work</a>
           
-      </div>  
+        </div>
+        <div class = quicklinks>
+          <a class="btn btn-primary btn-2g " href="#" role="button" data-toggle="modal" data-target="#exampleModal">About me</a>
+        </div>
+        <div class = quicklinks>
+          <img src = "images/linkedin.jpg">
+        </div>
+        <div class = quicklinks>
+          <img src = "images/email.jpg">
+        </div>
+      </div>
+      </div>
+ 
       <!--<hr class="my-4">-->
       <!--<p>It uses utility classes for typography and spacing to space content out within the larger container.</p> -->
       <!--home page links below-->
@@ -128,6 +134,19 @@
      
         <!--<div class="backgroundVertical"></div>-->
         <div class = "col">
+          <div class= "jumboMugs" >
+           <!-- <img src= "images/mug5.png" style=></img>-->
+    
+            <!-- HERE IDIOT! -->
+              <container class = "pour" id = pour>
+                <container class = "wrapper">
+                  
+                  <img src="images/sixDot.png" id= spillDot><img> 
+                  
+                </container>
+                <img src= "images/mug4.png" id = spillMug></img>
+              
+          </div> 
             <Div><img src="images/sixDot.png" id= spillDot1 class="dotpad"><img></Div>
             <Div><img src="images/sixDot.png" id= spillDot2 class="dotpad"><img></Div>
             <Div><img src="images/sixDot.png" id= spillDot3 class="dotpad"><img></Div>
